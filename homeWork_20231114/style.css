@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.users_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 5px;
+}
+
+.users_card{
+    border: 1px solid rgb(50, 3, 3);
+    border-radius: 3px;
+    padding: 5px;
+    width: 250px;
+}
